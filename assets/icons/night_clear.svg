@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img">
+  <title>clear night</title>
+  <path d="M41 10 A19 19 0 1 0 53 41 A15 15 0 0 1 41 10 Z" fill="#7B6BD6"/>
+  <g class="anim-twinkle" stroke="#7B6BD6" stroke-width="2">
+    <line x1="9.5" y1="14" x2="16.5" y2="14"/><line x1="13" y1="10.5" x2="13" y2="17.5"/>
+    <line x1="16.4" y1="37" x2="21.6" y2="37"/><line x1="19" y1="34.4" x2="19" y2="39.6"/>
+    <line x1="31.8" y1="48" x2="36.2" y2="48"/><line x1="34" y1="45.8" x2="34" y2="50.2"/>
+  </g>
+</svg>

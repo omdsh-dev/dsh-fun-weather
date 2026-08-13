@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img">
+  <title>sunny</title>
+  <g class="anim-pulse"><circle cx="32" cy="32" r="11" fill="#F6B03B"/></g>
+  <g class="anim-spin" stroke="#F6B03B" stroke-width="2">
+    <line x1="47.5" y1="32" x2="54.5" y2="32"/>
+    <line x1="43" y1="43" x2="47.9" y2="47.9"/>
+    <line x1="32" y1="47.5" x2="32" y2="54.5"/>
+    <line x1="21" y1="43" x2="16.1" y2="47.9"/>
+    <line x1="16.5" y1="32" x2="9.5" y2="32"/>
+    <line x1="21" y1="21" x2="16.1" y2="16.1"/>
+    <line x1="32" y1="16.5" x2="32" y2="9.5"/>
+    <line x1="43" y1="21" x2="47.9" y2="16.1"/>
+  </g>
+</svg>

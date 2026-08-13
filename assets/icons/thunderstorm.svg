@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img">
+  <title>thunderstorm</title>
+  <g class="anim-drift" transform="translate(4 -16) scale(0.9)"><path d="M25 48c-5 0-9-4-9-9 0-4 2-7 6-8 2-6 8-10 14-8 5 2 8 7 7 12 3 1 5 4 5 7 0 3-2 6-5 6H25z" fill="#EEF2F6" stroke="#9AA7B5" stroke-width="2" stroke-linejoin="round"/></g>
+  <polygon class="anim-flash" points="36,36 25,49 32,49 29,60 41,45 34,45 39,36" fill="#F6B03B"/>
+</svg>

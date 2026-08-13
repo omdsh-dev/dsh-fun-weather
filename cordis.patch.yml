@@ -1,0 +1,4 @@
+# Profile Bundle entry. dsh plugin add applies this row once.
+- insert:
+    - id: fun-weather
+      name: '@deepseek-ai/dsh-fun-weather'

@@ -1,0 +1,103 @@
+/* CSS animation groups for the weather icon set. Transform boxes are
+   fill-box anchored so SVG rotation/scale pivots on each group's own center. */
+
+.spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dshw-spin 40s linear infinite;
+}
+
+.pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dshw-pulse 4s ease-in-out infinite;
+}
+
+.drift {
+  animation: dshw-drift 6s ease-in-out infinite alternate;
+}
+
+.drop {
+  animation: dshw-drop 1.2s ease-in infinite;
+}
+
+.flake {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dshw-flake 2.6s ease-in-out infinite;
+}
+
+.fog {
+  animation: dshw-fog 2.6s ease-in-out infinite alternate;
+}
+
+.flash {
+  animation: dshw-flash 2.8s ease-in-out infinite;
+}
+
+.twinkle {
+  animation: dshw-twinkle 2.2s ease-in-out infinite alternate;
+}
+
+.wind {
+  animation: dshw-wind 2.4s ease-in-out infinite;
+}
+
+@keyframes dshw-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes dshw-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+}
+
+@keyframes dshw-drift {
+  from { transform: translateX(-2px); }
+  to { transform: translateX(2px); }
+}
+
+@keyframes dshw-drop {
+  0% { transform: translateY(0); opacity: 0.95; }
+  70% { transform: translateY(4.5px); opacity: 0.55; }
+  100% { transform: translateY(4.5px); opacity: 0; }
+}
+
+@keyframes dshw-flake {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(3.5px) rotate(55deg); }
+}
+
+@keyframes dshw-fog {
+  from { opacity: 0.35; }
+  to { opacity: 0.95; }
+}
+
+@keyframes dshw-flash {
+  0%, 100% { opacity: 0.95; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes dshw-twinkle {
+  from { opacity: 1; }
+  to { opacity: 0.3; }
+}
+
+@keyframes dshw-wind {
+  0%, 100% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin,
+  .pulse,
+  .drift,
+  .drop,
+  .flake,
+  .fog,
+  .flash,
+  .twinkle,
+  .wind {
+    animation: none;
+  }
+}
