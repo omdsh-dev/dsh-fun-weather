@@ -1,5 +1,7 @@
 # DSH Fun Weather
 
+**Author / Maintainer:** [@Zacklinkk](https://github.com/Zacklinkk)
+
 独立的 DeepSeek Harness Profile Bundle，提供当前天气、7 日预报、小时预报、城市设置，以及随天气变化的主题和壁纸效果。天气与地理搜索使用 Open-Meteo。
 
 ## 兼容性
